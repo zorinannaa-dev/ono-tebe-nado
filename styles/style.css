@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  margin: 0;
 }
 
 a {
@@ -90,9 +91,9 @@ a:hover {
 .main-h1 {
   color: #fff;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   line-height: 115%; /* 115px */
   letter-spacing: 30px;
   text-transform: uppercase;
@@ -101,9 +102,9 @@ a:hover {
 .no {
   color: #fff;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   line-height: 115%;
   letter-spacing: 60px;
   text-transform: uppercase;
@@ -112,9 +113,9 @@ a:hover {
 .be {
   color: #fff;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   line-height: 100%;
   letter-spacing: 60px;
   text-transform: uppercase;
@@ -122,13 +123,13 @@ a:hover {
 
 .na {
   color: #fff;
-  text-align: right;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   line-height: 100%; /* 100px */
   letter-spacing: 60px;
+  text-align: right;
   text-transform: uppercase;
 }
 
@@ -152,10 +153,10 @@ a:hover {
   text-align: right;
 }
 
-.slogan-span{
-  width: 633px;
+.slogan-span {
   display: flex;
   justify-content: space-between;
+  width: 633px;
 }
 
 .slogan-button {
@@ -177,10 +178,10 @@ a:hover {
 }
 
 .button {
-  margin-right: 82px;
-  margin-top: 147px;
   width: 257px;
   height: 52px;
+  margin-top: 147px;
+  margin-right: 82px;
   border: 1px solid #fff;
   padding-top: 12px;
   color: #fff;
@@ -199,26 +200,26 @@ a:hover {
 
 .lots {
   margin-bottom: 27px;
-  padding-left: 90px;
   padding-top: 180px;
+  padding-left: 90px;
   color: #000;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
 
 .lot-first {
+  position: relative;
+  z-index: 0;
+  width: 430px;
+  height: 450px;
   margin-left: 50px;
   background-image: url(/images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 430px;
-  height: 450px;
-  position: relative;
-  z-index: 0;
 }
 
 .lot-first::before {
@@ -234,14 +235,14 @@ a:hover {
 }
 
 .lot-second {
+  position: relative;
+  z-index: 0;
+  width: 430px;
+  height: 450px;
   margin-left: 25px;
   background-image: url(/images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 430px;
-  height: 450px;
-  position: relative;
-  z-index: 0;
 }
 
 .lot-second::before {
@@ -257,14 +258,14 @@ a:hover {
 }
 
 .lot-third {
+  position: relative;
+  z-index: 0;
+  width: 430px;
+  height: 450px;
   margin-left: 25px;
   background-image: url(/images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 430px;
-  height: 450px;
-  position: relative;
-  z-index: 0;
 }
 
 .lot-third::before {
@@ -284,9 +285,9 @@ a:hover {
   padding-left: 40px;
   color: #fff;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
   line-height: 120%; /* 26.4px */
   text-decoration-line: underline;
   text-transform: uppercase;
@@ -294,13 +295,13 @@ a:hover {
 
 .text-lot {
   padding-top: 202px;
-  padding-left: 40px;
   padding-right: 40px;
+  padding-left: 40px;
   color: #fff;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: 120%; /* 24px */
 }
 
@@ -314,13 +315,13 @@ a:hover {
 
 .link-show-more {
   display: block;
-  margin-left: 90px;
   margin-top: 30px;
+  margin-left: 90px;
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
@@ -334,71 +335,71 @@ a:hover {
   height: 240px;
   margin-top: 182px;
   margin-left: 95px;
-  background-color: #000;
   border-radius: 50%;
+  background-color: #000;
 }
 
 .logo-white {
-  margin-top: 63px;
-  margin-left: 46px;
   width: 148px;
   height: 114px;
+  margin-top: 63px;
+  margin-left: 46px;
 }
 
 .h2 {
   margin-top: 281px;
   color: #000;
   font-family: Raleway;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
 
 .main-text {
-  margin-left: 505px;
-  margin-right: 50px;
-  text-align: left;
-  width: 885px;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  width: 885px;
+  margin-right: 50px;
+  margin-left: 505px;
+  text-align: left;
 }
 
 .paragraph {
   color: #000;
   font-family: Raleway;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
 .footer {
-  margin-left: 50px;
-  width: 1440px;
   display: flex;
   justify-content: space-between;
+  width: 1440px;
+  margin-left: 50px;
 }
 
 .without-points {
-  text-align: center;
-  margin-top: 180px;
   display: flex;
   flex-direction: column;
-  list-style-type: none;
   gap: 0;
+  margin-top: 180px;
+  text-align: center;
+  list-style-type: none;
 }
 
 .links {
-  margin-right: 50px;
-  margin-top: 180px;
   display: flex;
   flex-direction: row;
+  gap: 48px;
   width: 240px;
   height: 48px;
-  gap: 48px;
+  margin-top: 180px;
+  margin-right: 50px;
 }
 .footer-contacts {
   margin-top: 180px;
