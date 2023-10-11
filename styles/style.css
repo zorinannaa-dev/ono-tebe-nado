@@ -1,1 +1,364 @@
-/* место для вашего кода */
+body {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(148, 146, 146);
+}
+
+.a-first-child {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440px;
+  background-color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-top: 135px;
+  margin-bottom: 137px;
+  margin-left: 51px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  list-style-type: circle;
+}
+
+.logo-black {
+  width: 148px;
+  height: 105px;
+  margin-top: 92px;
+  margin-bottom: 92px;
+}
+
+.header-contacts {
+  flex-wrap: wrap;
+  margin-top: 97px;
+  margin-right: 49px;
+  margin-bottom: 99px;
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px; /* 135% */
+}
+
+.address {
+  display: block;
+  width: 240px;
+  height: 49px;
+}
+
+.cover {
+  position: relative;
+  z-index: 0;
+  width: 1440px;
+  height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.main-h1 {
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+  font-style: normal;
+  line-height: 100%; /* 100px */
+  letter-spacing: 60px;
+  text-transform: uppercase;
+}
+
+.text-left {
+  display: block;
+  padding-top: 165px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.text-center {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.text-right {
+  display: block;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.slogan-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 110px;
+}
+.slogan {
+  padding-top: 147px;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 28px; /* 127.273% */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button {
+  margin-right: 82px;
+  margin-top: 147px;
+  width: 257px;
+  height: 52px;
+  border: 1px solid #fff;
+  padding-top: 12px;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.all-lots {
+  display: flex;
+}
+
+.lots {
+  margin-bottom: 27px;
+  padding-left: 90px;
+  padding-top: 180px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lot-first {
+  margin-left: 50px;
+  background-image: url(/images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 430px;
+  height: 450px;
+  position: relative;
+  z-index: 0;
+}
+
+.lot-first::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.lot-second {
+  margin-left: 25px;
+  background-image: url(/images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 430px;
+  height: 450px;
+  position: relative;
+  z-index: 0;
+}
+
+.lot-second::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.lot-third {
+  margin-left: 25px;
+  background-image: url(/images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 430px;
+  height: 450px;
+  position: relative;
+  z-index: 0;
+}
+
+.lot-third::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+.h3 {
+  padding-top: 50px;
+  padding-left: 40px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.text-lot {
+  padding-top: 202px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+}
+
+.text-lot-2 {
+  padding-top: 30px;
+}
+
+.text-lot-3 {
+  padding-top: 84px;
+}
+
+.link-show-more {
+  display: block;
+  margin-left: 90px;
+  margin-top: 30px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about {
+  display: flex;
+  gap: 166px;
+}
+
+.logo-white-div {
+  width: 240px;
+  height: 240px;
+  margin-top: 182px;
+  margin-left: 95px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.logo-white {
+  margin-top: 63px;
+  margin-left: 46px;
+  width: 148px;
+  height: 114px;
+}
+
+.h2 {
+  margin-top: 281px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main-text {
+  margin-left: 505px;
+  margin-right: 50px;
+  text-align: left;
+  width: 885px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.paragraph {
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer{
+  margin-left: 50px;
+  width: 1440px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.without-points{
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  list-style-type:none;
+  gap: 0;
+}
+
+.links{
+  margin-right: 50px;
+  margin-top: 180px;
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  height: 48px;
+  gap: 48px;
+}
+.footer-contacts{
+  margin-top: 180px;
+}
