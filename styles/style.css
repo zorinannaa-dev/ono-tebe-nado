@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -40,6 +45,11 @@ a:hover {
   list-style-type: circle;
 }
 
+.div-logo-black{
+  display: block;
+  margin: auto;
+}
+
 .logo-black {
   width: 148px;
   height: 105px;
@@ -71,7 +81,7 @@ a:hover {
   z-index: 0;
   width: 1440px;
   height: 757px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -167,7 +177,7 @@ a:hover {
   gap: 110px;
 }
 .slogan {
-  padding-top: 147px;
+  margin-bottom: 62px;
   color: #fff;
   font-family: Raleway;
   font-weight: 400;
@@ -218,7 +228,7 @@ a:hover {
   width: 430px;
   height: 450px;
   margin-left: 50px;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -241,7 +251,7 @@ a:hover {
   width: 430px;
   height: 450px;
   margin-left: 25px;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -264,7 +274,7 @@ a:hover {
   width: 430px;
   height: 450px;
   margin-left: 25px;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
