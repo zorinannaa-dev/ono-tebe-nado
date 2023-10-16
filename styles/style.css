@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  margin: 0;
+  margin: 50px;
   padding: 0;
 }
 
@@ -294,6 +294,7 @@ a:hover {
 .h3 {
   padding-top: 50px;
   padding-left: 40px;
+  padding-right: 40px;
   color: #fff;
   font-family: Raleway;
   font-weight: 700;
