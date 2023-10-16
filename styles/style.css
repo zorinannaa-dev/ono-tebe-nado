@@ -24,7 +24,6 @@ a:hover {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   width: 1440px;
   background-color: #fff;
 }
@@ -47,12 +46,12 @@ a:hover {
 
 .div-logo-black{
   display: block;
-  margin: auto;
 }
 
 .logo-black {
   width: 148px;
   height: 105px;
+  margin-left: 209px;
   margin-top: 92px;
   margin-bottom: 92px;
 }
@@ -61,6 +60,7 @@ a:hover {
   flex-wrap: wrap;
   margin-top: 97px;
   margin-right: 49px;
+  margin-left: 355px;
   margin-bottom: 99px;
   color: #000;
   font-family: Raleway;
@@ -338,9 +338,7 @@ a:hover {
 }
 
 .about {
-  margin-left: 50px;
   display: flex;
-  gap: 166px;
 }
 
 .logo-white-div {
@@ -379,7 +377,7 @@ a:hover {
   gap: 25px;
   width: 885px;
   margin-right: 50px;
-  margin-left: 505px;
+  margin-left: 455px;
   text-align: left;
 }
 
