@@ -48,10 +48,6 @@ a:hover {
   list-style-type: circle;
 }
 
-.nav-list-point{
-  flex-wrap: nowrap;
-}
-
 .div-logo-black{
   display: block;
 }
@@ -65,6 +61,9 @@ a:hover {
 }
 
 .header-contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   margin-top: 97px;
   margin-right: 49px;
   margin-bottom: 99px;
@@ -78,7 +77,6 @@ a:hover {
 }
 
 .address {
-  flex-wrap: nowrap;
   width: 240px;
   height: 49px;
 }
