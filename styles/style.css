@@ -24,6 +24,7 @@ a:hover {
 }
 
 .header {
+  flex-wrap: nowrap;
   display: flex;
   flex-direction: row;
   width: 1440px;
