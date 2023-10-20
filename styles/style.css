@@ -400,6 +400,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   width: 1440px;
+  padding-left: 50px;
 }
 
 .without-points {
