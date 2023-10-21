@@ -8,6 +8,7 @@ html,
 body {
   box-sizing: border-box;
   max-width: 1440px;
+  max-height: 2844px;
   margin: 0;
   padding: 0;
 }
@@ -87,7 +88,6 @@ a:hover {
   width: 1440px;
   position: relative;
   z-index: 0;
-  width: 1440px;
   height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -219,6 +219,7 @@ a:hover {
 }
 
 .all-lots {
+  margin: 5px;
   display: flex;
 }
 
@@ -319,7 +320,7 @@ a:hover {
 }
 
 .text-lot {
-  padding-top: 202px;
+  padding-top: 190px;
   padding-right: 40px;
   padding-left: 40px;
   color: #fff;
