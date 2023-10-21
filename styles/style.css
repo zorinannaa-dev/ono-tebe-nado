@@ -174,7 +174,7 @@ a:hover {
   padding-right: 50px;
   text-align: right;
   margin-top: -20px;
-  margin-right: 50px;
+  margin-right: -20px;
 }
 
 .slogan-span {
@@ -206,7 +206,6 @@ a:hover {
   width: 257px;
   height: 52px;
   margin-top: 147px;
-  padding-right: 100px;
   border: 1px solid #fff;
   padding-top: 12px;
   color: #fff;
