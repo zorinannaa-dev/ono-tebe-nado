@@ -186,7 +186,7 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-  gap: 110px;
+  gap: 100px;
   max-height: 237px;
 }
 .slogan {
