@@ -84,6 +84,7 @@ a:hover {
 }
 
 .cover {
+  width: 1440px;
   position: relative;
   z-index: 0;
   width: 1440px;
@@ -152,6 +153,7 @@ a:hover {
 }
 
 .text-left {
+  width: 1440px;
   display: block;
   padding-top: 165px;
   padding-left: 50px;
@@ -159,6 +161,7 @@ a:hover {
 }
 
 .text-center {
+  width: 1440px;
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -166,6 +169,7 @@ a:hover {
 }
 
 .text-right {
+  width: 1440px;
   display: block;
   padding-right: 50px;
   text-align: right;
