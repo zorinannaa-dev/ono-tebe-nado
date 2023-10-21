@@ -173,7 +173,7 @@ a:hover {
   display: block;
   padding-right: 50px;
   text-align: right;
-  margin: -20px;
+  margin-top: -20px;
 }
 
 .slogan-span {
@@ -205,7 +205,7 @@ a:hover {
   width: 257px;
   height: 52px;
   margin-top: 147px;
-  margin-right: 80px;
+  margin-right: 100px;
   border: 1px solid #fff;
   padding-top: 12px;
   color: #fff;
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .all-lots {
-  margin: 5px;
+  margin: 7px;
   display: flex;
 }
 
