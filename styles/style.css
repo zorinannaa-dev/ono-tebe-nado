@@ -169,6 +169,7 @@ a:hover {
   display: block;
   padding-right: 50px;
   text-align: right;
+  margin: -20px;
 }
 
 .slogan-span {
