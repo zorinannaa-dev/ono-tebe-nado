@@ -1,14 +1,11 @@
 * {
-  /* border: 1px solid red; */
-  margin: 0;
-  padding: 0;
+  border: 1px solid red;
 }
 
 html,
 body {
-  box-sizing: border-box;
   max-width: 1440px;
-  max-height: 2844px;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -21,20 +18,16 @@ a:hover {
   color: rgb(148, 146, 146);
 }
 
-.a-first-child {
-  text-decoration: none;
-}
-
 .header {
+  width: 135%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: 1440px;
-  height: 293px;
   background-color: #fff;
 }
 
 .nav-list {
+  width: 110%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -51,6 +44,14 @@ a:hover {
   list-style-type: circle;
 }
 
+.a-child {
+  text-decoration: none;
+}
+
+.without-circle {
+  list-style-type: none;
+}
+
 .div-logo-black {
   display: block;
 }
@@ -63,7 +64,7 @@ a:hover {
   margin-left: 209px;
 }
 
-.header-contacts {
+.address {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -79,16 +80,16 @@ a:hover {
   line-height: 24.3px; /* 135% */
 }
 
-.address {
-  width: 240px;
-  height: 49px;
+.address-map {
+  max-width: 240px;
+  width: 100%;
 }
 
 .cover {
   position: relative;
   z-index: 0;
-  width: 1440px;
-  height: 757px;
+  width: 135%;
+  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -100,14 +101,16 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
   height: 100%;
   opacity: 0.6;
   background-color: #000;
 }
 
-.main-h1 {
+.cover__title {
+  z-index: 2;
+  position: relative;
   color: #fff;
   font-family: Raleway;
   font-weight: 700;
@@ -118,59 +121,40 @@ a:hover {
   text-transform: uppercase;
 }
 
-.no {
-  color: #fff;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 100px;
-  font-style: normal;
+.letter-spacing-extended-no {
   line-height: 115%;
   letter-spacing: 60px;
-  text-transform: uppercase;
 }
 
-.be {
-  color: #fff;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 100px;
-  font-style: normal;
+.letter-spacing-extended-be {
   line-height: 100%;
   letter-spacing: 60px;
-  text-transform: uppercase;
 }
 
-.na {
-  color: #fff;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 100px;
-  font-style: normal;
+.letter-spacing-extended-na {
   line-height: 100%; /* 100px */
   letter-spacing: 60px;
   text-align: right;
-  text-transform: uppercase;
+}
+
+.text-main{
+  display: block;
+  width: 1440px;
 }
 
 .text-left {
-  display: block;
-  width: 1440px;
   padding-top: 165px;
   padding-left: 50px;
   text-align: left;
 }
 
 .text-center {
-  display: block;
-  width: 1440px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
 }
 
 .text-right {
-  display: block;
-  width: 1440px;
   margin-top: -20px;
   padding-right: 50px;
   text-align: right;
@@ -187,7 +171,6 @@ a:hover {
   justify-content: flex-end;
   align-items: baseline;
   gap: 100px;
-  max-height: 237px;
 }
 .slogan {
   margin-bottom: 62px;
@@ -207,7 +190,7 @@ a:hover {
   margin-top: 130px;
   margin-right: 50px;
   border: 1px solid #fff;
-  padding-top: 12px;
+  padding-top: 10px;
   color: #fff;
   font-family: Raleway;
   font-weight: 400;
@@ -216,6 +199,7 @@ a:hover {
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
+  background-color: transparent;
 }
 
 .all-lots {
@@ -223,7 +207,7 @@ a:hover {
   margin: 8px;
 }
 
-.lots {
+.lots__heading {
   margin-bottom: 27px;
   padding-top: 180px;
   padding-left: 90px;
@@ -236,76 +220,53 @@ a:hover {
   text-transform: uppercase;
 }
 
-.lot-first {
-  position: relative;
-  z-index: 0;
-  width: 430px;
-  height: 450px;
-  margin-left: 40px;
-  background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.lots__cards-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 25px;
+  margin-left: 50px;
+  margin-top: 27px;
 }
 
-.lot-first::before {
+.card {
+  width: 430px;
+  height: 450px;
+  position: relative;
+  z-index: 2;
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_type_paint {
+  background-image: url(/images/card-lot-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
   height: 100%;
   opacity: 0.6;
   background-color: #000;
 }
 
-.lot-second {
-  position: relative;
-  z-index: 0;
-  width: 430px;
-  height: 450px;
-  margin-left: 25px;
-  background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.lot-second::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-  background-color: #000;
-}
-
-.lot-third {
-  position: relative;
-  z-index: 0;
-  width: 430px;
-  height: 450px;
-  margin-left: 25px;
-  background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.lot-third::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-  background-color: #000;
-}
-
-.h3 {
+.card__title {
   padding-top: 50px;
   padding-right: 40px;
   padding-left: 40px;
@@ -319,7 +280,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-.text-lot {
+.card__text {
   padding-top: 190px;
   padding-right: 40px;
   padding-left: 40px;
@@ -331,12 +292,24 @@ a:hover {
   line-height: 120%; /* 24px */
 }
 
-.text-lot-2 {
+.card__text__book {
   padding-top: 30px;
 }
 
-.text-lot-3 {
+.card__text__paint {
   padding-top: 84px;
+}
+
+.look_more {
+  display: block;
+  color: #000;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 90px;
+  margin-top: 30px;
 }
 
 .link-show-more {
@@ -351,13 +324,12 @@ a:hover {
   line-height: normal;
 }
 
-.about {
+.about-column {
   display: flex;
 }
 
 .logo-white-div {
   width: 240px;
-  height: 240px;
   margin-top: 182px;
   margin-right: 95px;
   margin-left: 145px;
@@ -372,7 +344,7 @@ a:hover {
   margin-left: 46px;
 }
 
-.h2 {
+.about__title {
   margin-top: 281px;
   margin-bottom: 100px;
   margin-left: 25px;
@@ -389,7 +361,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  width: 885px;
+  max-width: 885px;
+  width: 100%;
   margin-right: 50px;
   margin-left: 505px;
   text-align: left;
@@ -405,9 +378,11 @@ a:hover {
 }
 
 .footer {
+  margin-top: 180px;
   display: flex;
   justify-content: space-between;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   padding-left: 50px;
 }
 
@@ -415,7 +390,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 0;
-  margin-top: 180px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -430,14 +404,11 @@ a:hover {
   display: flex;
   flex-direction: row;
   gap: 48px;
-  width: 240px;
-  height: 48px;
-  margin-top: 180px;
+  max-width: 240px;
   margin-right: 50px;
 }
 .footer-contacts {
-  flex-wrap: ;
-  margin-top: 180px;
+  flex-wrap: nowrap;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
