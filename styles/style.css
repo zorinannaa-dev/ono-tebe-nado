@@ -62,7 +62,7 @@ a:hover {
   height: 105px;
   margin-top: 92px;
   margin-bottom: 96px;
-  margin-left: 270px;
+  margin-left: 209px;
 }
 
 .address {
@@ -74,7 +74,7 @@ a:hover {
   margin-top: 90px;
   margin-right: 49px;
   margin-bottom: 99px;
-  margin-left: 350px;
+  margin-left: 355px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -152,7 +152,7 @@ a:hover {
 
 .text-left {
   padding-top: 165px;
-  padding-left: 65px;
+  padding-left: 50px;
   text-align: left;
 }
 
@@ -163,7 +163,6 @@ a:hover {
 }
 
 .text-right {
-  padding-top: 40px;
   padding-right: 65px;
   text-align: right;
 }
@@ -175,6 +174,8 @@ a:hover {
 }
 
 .slogan-button {
+  z-index: 2;
+  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
@@ -218,7 +219,7 @@ a:hover {
 
 .lots__heading {
   margin-bottom: 27px;
-  padding-top: 175px;
+  padding-top: 180px;
   padding-left: 85px;
   color: #000;
   font-family: Raleway;
@@ -398,6 +399,7 @@ a:hover {
   max-width: 1440px;
   width: 130%;
   padding-left: 50px;
+  margin-top: 180px;
 }
 
 .without-points {
