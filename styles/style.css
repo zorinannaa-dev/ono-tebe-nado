@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html,
@@ -66,7 +66,7 @@ a:hover {
 }
 
 .address {
-  padding-left: 10px;
+  padding-left: 5px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .text-left {
-  padding-top: 120px;
+  padding-top: 165px;
   padding-left: 65px;
   text-align: left;
 }
@@ -401,6 +401,7 @@ a:hover {
 }
 
 .without-points {
+  margin-left: -50px;
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -422,6 +423,8 @@ a:hover {
   margin-right: 50px;
 }
 .footer-contacts {
+  display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
   color: #000;
   font-family: Raleway;
