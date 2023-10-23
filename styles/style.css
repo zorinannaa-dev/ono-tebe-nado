@@ -163,7 +163,8 @@ a:hover {
 }
 
 .text-right {
-  padding-right: 65px;
+  margin-top: -10px;
+  padding-right: 50px;
   text-align: right;
 }
 
@@ -399,7 +400,7 @@ a:hover {
   max-width: 1440px;
   width: 130%;
   padding-left: 50px;
-  margin-top: 180px;
+  margin-top: 50px;
 }
 
 .without-points {
