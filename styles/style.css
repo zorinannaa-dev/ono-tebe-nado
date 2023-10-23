@@ -32,7 +32,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 35px;
+  gap: 30px;
   margin-top: 130px;
   margin-bottom: 137px;
   margin-left: 45px;
@@ -62,7 +62,7 @@ a:hover {
   height: 105px;
   margin-top: 92px;
   margin-bottom: 96px;
-  margin-left: 250px;
+  margin-left: 255px;
 }
 
 .address {
@@ -73,7 +73,7 @@ a:hover {
   margin-top: 90px;
   margin-right: 49px;
   margin-bottom: 99px;
-  margin-left: 300px;
+  margin-left: 350px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -85,9 +85,13 @@ a:hover {
 .address-map {
   max-width: 240px;
   width: 100%;
+  display: block;
+  flex-wrap: nowrap;
+
 }
 
 .cover {
+  margin-top: 96px;
   position: relative;
   z-index: 0;
   width: 100%;
