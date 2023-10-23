@@ -62,7 +62,7 @@ a:hover {
   height: 105px;
   margin-top: 92px;
   margin-bottom: 96px;
-  margin-left: 265px;
+  margin-left: 270px;
 }
 
 .address {
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .text-left {
-  padding-top: 135px;
+  padding-top: 120px;
   padding-left: 65px;
   text-align: left;
 }
@@ -212,6 +212,7 @@ a:hover {
 
 .all-lots {
   display: flex;
+  justify-content: space-between;
   margin: 8px;
 }
 
@@ -276,6 +277,8 @@ a:hover {
 }
 
 .card__title {
+  z-index: 2;
+  position: relative;
   padding-top: 50px;
   padding-right: 40px;
   padding-left: 40px;
@@ -290,6 +293,8 @@ a:hover {
 }
 
 .card__text {
+  z-index: 2;
+  position: relative;
   padding-top: 190px;
   padding-right: 40px;
   padding-left: 40px;
@@ -387,11 +392,11 @@ a:hover {
 }
 
 .footer {
-  margin-top: 180px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1440px;
-  width: 100%;
+  width: 130%;
   padding-left: 50px;
 }
 
