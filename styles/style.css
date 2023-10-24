@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 a:hover {
@@ -19,11 +20,13 @@ a:hover {
 }
 
 .header {
-  display: flex;
+  display: grid;
   flex-direction: row;
   flex-wrap: nowrap;
+  grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   width: 100%;
+  padding: 92px 50px;
   background-color: #fff;
 }
 
@@ -31,11 +34,8 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 29px;
-  width: 120%;
-  margin-top: 135px;
-  margin-bottom: 137px;
-  margin-left: 44px;
+  gap: 32px;
+  width: 150%;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -60,9 +60,7 @@ a:hover {
 .logo-black {
   width: 148px;
   height: 105px;
-  margin-top: 92px;
-  margin-bottom: 96px;
-  margin-left: 290px;
+  margin-left: 209px;
 }
 
 .address {
@@ -70,10 +68,7 @@ a:hover {
   flex-direction: column;
   flex-wrap: nowrap;
   width: 100%;
-  margin-top: 95px;
-  margin-right: 49px;
-  margin-bottom: 99px;
-  margin-left: 355px;
+  margin-left: 300px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -93,7 +88,6 @@ a:hover {
   z-index: 0;
   width: 100%;
   max-height: 757px;
-  margin-top: -5px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -125,19 +119,12 @@ a:hover {
   text-transform: uppercase;
 }
 
-.letter-spacing-extended-no {
+.letter-spacing-extended {
   line-height: 115%;
   letter-spacing: 60px;
 }
 
-.letter-spacing-extended-be {
-  line-height: 100%;
-  letter-spacing: 60px;
-}
-
 .letter-spacing-extended-na {
-  line-height: 100%; /* 100px */
-  letter-spacing: 60px;
   text-align: right;
 }
 
@@ -167,7 +154,8 @@ a:hover {
 .slogan-span {
   display: flex;
   justify-content: space-between;
-  width: 633px;
+  max-width: 633px;
+  word-spacing: 12px;
 }
 
 .slogan-button {
@@ -242,26 +230,26 @@ a:hover {
 .card {
   position: relative;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 430px;
   height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_paint {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card::before {
@@ -292,15 +280,11 @@ a:hover {
   text-transform: uppercase;
 }
 
-.card__title__padding {
-  padding-right: 40px;
-}
-
 .card__text {
   position: relative;
   z-index: 2;
-  padding-top: 202px;
   padding-right: 40px;
+  padding-bottom: 50px;
   padding-left: 40px;
   color: #fff;
   font-family: Raleway;
@@ -310,27 +294,11 @@ a:hover {
   line-height: 120%; /* 24px */
 }
 
-.card__text__book {
-  padding-top: 30px;
-}
-
-.card__text__paint {
-  padding-top: 84px;
+.card-link {
+  text-decoration: none;
 }
 
 .look_more {
-  display: block;
-  margin-top: 30px;
-  margin-left: 90px;
-  color: #000;
-  font-family: Raleway;
-  font-weight: 400;
-  font-size: 20px;
-  font-style: normal;
-  line-height: normal;
-}
-
-.link-show-more {
   display: block;
   margin-top: 30px;
   margin-left: 90px;
