@@ -86,8 +86,6 @@ a:hover {
   display: flex;
   flex-wrap: nowrap;
   justify-content: baseline;
-  width: 100%;
-  max-width: 240px;
 }
 
 .cover {
@@ -178,7 +176,7 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-  gap: 90px;
+  gap: 80px;
 }
 
 .slogan {
@@ -248,7 +246,6 @@ a:hover {
 }
 
 .card_type_film {
-  margin-right: 40px;
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: contain;
