@@ -36,6 +36,7 @@ a:hover {
   flex-wrap: nowrap;
   gap: 32px;
   width: 150%;
+  padding-top: 40px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -68,7 +69,7 @@ a:hover {
   flex-direction: column;
   flex-wrap: nowrap;
   width: 100%;
-  margin-left: 300px;
+  margin-left: 270px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -369,7 +370,8 @@ a:hover {
   align-items: center;
   width: 130%;
   max-width: 1440px;
-  margin-top: 50px;
+  margin-top: 180px;
+  padding-bottom: 124px;
   padding-left: 50px;
 }
 
@@ -394,8 +396,8 @@ a:hover {
   flex-direction: row;
   gap: 48px;
   max-width: 240px;
-  margin-top: -20px;
   margin-right: 50px;
+  padding-top: 50px;
 }
 
 .footer-contacts {
@@ -404,6 +406,7 @@ a:hover {
   flex-wrap: nowrap;
   width: 20%;
   margin-top: 10px;
+  padding-top: 50px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
