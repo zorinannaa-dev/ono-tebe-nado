@@ -61,14 +61,14 @@ a:hover {
 .logo-black {
   width: 148px;
   height: 105px;
-  margin-left: 209px;
+  margin-left: 150px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 60%;
   margin-left: 270px;
   color: #000;
   font-family: Raleway;
@@ -370,8 +370,8 @@ a:hover {
   align-items: center;
   width: 130%;
   max-width: 1440px;
-  margin-top: 180px;
-  padding-bottom: 124px;
+  margin-top: 130px;
+  padding-bottom: 100px;
   padding-left: 50px;
 }
 
