@@ -69,7 +69,7 @@ a:hover {
   flex-direction: column;
   flex-wrap: nowrap;
   width: 60%;
-  margin-left: 270px;
+  margin-left: 300px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -147,8 +147,8 @@ a:hover {
 }
 
 .text-right {
-  padding-right: 25px;
-  padding-right: 5px;
+  margin-top: -20px;
+  padding-right: 30px;
   text-align: right;
 }
 
@@ -156,7 +156,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   max-width: 633px;
-  word-spacing: 12px;
+  word-spacing: 15px;
 }
 
 .slogan-button {
@@ -282,6 +282,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.card__title:first-child {
+  padding-right: 25px;
+}
+
 .card__text {
   position: relative;
   z-index: 2;
@@ -366,7 +370,8 @@ a:hover {
 }
 
 .footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
   width: 130%;
@@ -377,11 +382,11 @@ a:hover {
 }
 
 .without-points {
+  width: 150%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 0;
-  margin-left: -24px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -399,13 +404,14 @@ a:hover {
   max-width: 240px;
   margin-right: 50px;
   padding-top: 50px;
+  margin-left: 355px;
 }
 
 .footer-contacts {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 20%;
+  width: 50%;
   margin-top: 10px;
   padding-top: 50px;
   color: #000;
