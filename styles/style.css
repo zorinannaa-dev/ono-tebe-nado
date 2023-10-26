@@ -68,7 +68,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  max-width: 240px;
+  max-width: 250px;
   width: 100%;
   color: #000;
   font-family: Raleway;
