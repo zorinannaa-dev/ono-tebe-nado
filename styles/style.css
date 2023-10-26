@@ -36,7 +36,7 @@ a:hover {
   flex-wrap: nowrap;
   gap: 32px;
   width: 150%;
-  padding-top: 40px;
+  padding-top: 45px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -64,6 +64,7 @@ a:hover {
 }
 
 .address {
+  margin-top: 10px;
   justify-self: end;
   display: flex;
   flex-direction: column;
@@ -185,7 +186,7 @@ a:hover {
 .button {
   width: 257px;
   height: 52px;
-  margin-top: 115px;
+  margin-top: 120px;
   margin-right: 50px;
   border: 1px solid #fff;
   padding-top: 10px;
@@ -404,7 +405,7 @@ a:hover {
   gap: 48px;
   max-width: 240px;
   margin-right: 50px;
-  margin-left: 355px;
+  justify-self: end;
   padding-top: 50px;
 }
 
