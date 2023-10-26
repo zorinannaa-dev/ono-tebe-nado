@@ -64,13 +64,13 @@ a:hover {
 }
 
 .address {
-  margin-top: 10px;
-  justify-self: end;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  max-width: 250px;
+  justify-self: end;
   width: 100%;
+  max-width: 250px;
+  margin-top: 10px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -127,8 +127,8 @@ a:hover {
 }
 
 .letter-spacing-extended-na {
-  text-align: right;
   letter-spacing: 0.6em;
+  text-align: right;
 }
 
 .text-main {
@@ -389,6 +389,7 @@ a:hover {
   flex-wrap: nowrap;
   gap: 0;
   width: 150%;
+  padding-right: 40px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
@@ -402,11 +403,11 @@ a:hover {
 .links {
   display: flex;
   flex-direction: row;
+  justify-self: end;
   gap: 48px;
   max-width: 240px;
   margin-right: 50px;
-  justify-self: end;
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 .footer-contacts {
