@@ -388,13 +388,13 @@ a:hover {
   flex-wrap: nowrap;
   gap: 0;
   width: 150%;
-  padding-right: 50px;
+  padding-right: 55px;
   color: #000;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px; /* 135% */
+  line-height: 135%;
   text-align: center;
   list-style-type: none;
 }
