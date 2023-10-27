@@ -383,6 +383,7 @@ a:hover {
 }
 
 .without-points {
+  justify-self: flex-start;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
